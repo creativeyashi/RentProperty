@@ -1,0 +1,57 @@
+.Header {
+  padding: 3px;
+  background-color: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.Hero {
+  margin: 0;
+  padding: 0;
+  font-size: 1.8rem;
+}
+
+.Items-Conteiner {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerItems {
+  margin-left: 2rem;
+  color: #5e5c5c;
+  border-radius: 3px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 1em;
+  padding: 0.4em;
+  width: 5em;
+}
+
+.h3Active {
+  background: #7676f8;
+  color: white;
+  border: 2px solid #7676f8;
+}
+/* #b3b3ff */
+
+.Btn_Container {
+  text-align: center;
+  /* border: 2px solid black; */
+}
+
+.Btn_Container button {
+  font-weight: bold;
+  font-size: 0.95em;
+  cursor: pointer;
+  border: 2px solid black;
+  background-color: black;
+  color: white;
+  margin-left: 2em;
+  padding: 0.8em;
+  width: 6rem;
+  border-radius: 5px;
+}

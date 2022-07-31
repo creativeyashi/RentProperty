@@ -1,0 +1,25 @@
+.heroHeading {
+  color: #464545;
+
+}
+
+.main {
+  margin: 0px auto 0px auto;
+  width: 80%;
+}
+
+
+
+.cardDiv {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.noData {
+  color: #918e8e;
+  opacity: 0.5;
+  text-align: center;
+}

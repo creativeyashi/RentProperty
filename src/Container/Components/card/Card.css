@@ -1,0 +1,64 @@
+.cardContainer {
+  position: relative;
+  margin: 20px;
+  border-radius: 5px;
+  border: 1px solid rgb(250, 247, 247);
+  box-shadow: 1px 4px 5px 0 rgb(231, 222, 222);
+  width: 18.5rem;
+  padding-bottom: 25px;
+  cursor: pointer;
+  transition: 0.5s all ease-in;
+}
+
+.Badge {
+  border-radius: 3px 0px 0px 3px;
+  color: white;
+  position: absolute;
+  background: #6868f5;
+  top: 41.5%;
+  right: -0.5%;
+  padding: 5px;
+}
+
+.cardContent {
+  margin: 0px auto 0px auto;
+  /* border: 2px solid black; */
+  width: 80%;
+}
+
+.price {
+  color: #6868f5;
+  font-size: 25px;
+}
+
+.cardContainer h3 {
+  color: #5e5c5c;
+}
+
+.cardContent h3,
+h2,
+address,
+hr {
+  margin: 10px auto 0px auto;
+  padding: 0px;
+}
+
+.cardContainer hr,
+address {
+  margin-bottom: 10px;
+  color: #5e5c5c;
+}
+
+.imgContainer img {
+  border-radius: 5px 5px 0px 0px;
+  width: 100%;
+}
+
+.propertyInfo {
+  text-align: center;
+  color: #353434;
+}
+
+.cardContainer:hover {
+  transform: scale(1.05);
+}
